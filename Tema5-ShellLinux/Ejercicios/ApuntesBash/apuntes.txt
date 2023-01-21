@@ -1,0 +1,18 @@
+#Operadores logicos bash
+-eq Devuelve TRUE si los numeros son iguales
+-ne Devuelve TRUE si los dos numeros son diferentes
+-lt Devuelve TRUE si el primer numero es menor al segundo
+-le Devuelve TRUE si el primer numero es menor o igual al segundo
+-gt Devuelve TRUE si el primer numero es mayor al segundo
+-ge Devuelve TRUE si el primer numero es mayor o igual al segundo
+-n  Devuelve TRUE si una variable contiene algo
+-z  Devuelve TRUE si una variable guarda una cadena de
+    caracteres vacia (variable="")
+==  Devuelve TRUE si las dos variables son iguales
+!=  Devuelve TRUE si las dos variables son distintas
+&&  Devuelve TRUE si las dos/mas condiciones se cumplen
+||  Devuelve TRUE si una de las condiciones se cumple
+!   Operador de negacion
+#Ejemplo bucle while con dos condiciones
+while [[ $var -eq 300 || $var -eq 400 ]]
+
